@@ -3,8 +3,11 @@
 - Make sure that [Node.js](https://nodejs.org) & [Docker](https://docs.docker.com/) are installed.
 
   ```
-  $ node --version
-  $ docker --version
+  node --version
+  ```
+
+  ```
+  docker --version
   ```
 
   If they are installed, these commands would list the versions without any errors.
@@ -21,7 +24,7 @@
 - To verify if both of them are installed ot not, you can run `docker -v` & `node -v`.
 - If you're using linux, make sure that `ifconfig` is installed as well. You'll need it to get ip address of your local network.
   ```
-  $ sudo apt install net-tools
+  sudo apt install net-tools
   ```
 - Connect your device to the network (wifi or ethernet) in with the screen is also connected.
 - Open terminal (linux) or command prompt (windows).
@@ -40,7 +43,7 @@
 - Run the setup command (inside the extracted folder ofcourse).
 
   ```
-  $ npm run setup
+  npm run setup
   ```
 
   **Linux example:**
