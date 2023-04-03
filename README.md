@@ -1,6 +1,21 @@
 # docker setup offline
 
-- Make sure that [Docker](https://www.docker.com/) & [Node.js](https://nodejs.org) are installed.
+- Make sure that [Node.js](https://nodejs.org) & [Docker](https://docs.docker.com/) are installed.
+
+  ```
+  node --version
+  docker --version
+  ```
+
+  If they are installed, these commands would list the versions without any errors.
+
+- To install them, go to their installation page (links given below) & follow the instructions for your operating system.
+
+  - [Node.js](https://nodejs.org/en/download)
+  - [Docker](https://docs.docker.com/engine/install/)
+
+  In case of docker if your environment is server then look at the [server section](https://docs.docker.com/engine/install/#server) of their installation page.
+
 - To verify if both of them are installed ot not, you can run `docker -v` & `node -v`.
 - If you're using linux, make sure that `ifconfig` is there as you'll need it to get ip address of your local network.
   ```
@@ -29,6 +44,6 @@
   **Linux example:**
   ![Linux setup](images/linux-setup.png)
 
-- This should start your signage server. You can verify this by opening your browser, and entering a URL like `http://<ip-address>:8080`
+- This should start your signage server. You can verify this by opening your browser & entering a URL like `http://<ip-address>:8080`
 
   ![Browser](images/browser.png)

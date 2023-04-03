@@ -3,7 +3,6 @@
 /media
 /mongo-data
 /digital-signage.tar
-/setup
 /application.json
 /.env
 /docker-compose.yml
