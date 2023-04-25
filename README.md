@@ -1,5 +1,7 @@
 # docker setup offline
 
+The following are the setups to configure & setup your signage server.
+
 - Make sure that [Node.js](https://nodejs.org) & [Docker](https://docs.docker.com/) are installed.
 
   ```
@@ -26,7 +28,7 @@
   ```
   sudo apt install net-tools
   ```
-- Connect your device to the network (wifi or ethernet) in with the screen is also connected.
+- Connect your device to the network (wifi or ethernet) with the screen is also connected.
 - Open terminal (linux) or command prompt (windows).
 - Now you'll need to know the local ip address of your device. If you're using windows, you can use `ipconfig` command. In linux, you'll have to use `ifconfig` command.
 
@@ -46,9 +48,10 @@
   npm run setup
   ```
 
-  **Linux example:**
+  **Example:**
+
   ![Linux setup](images/linux-setup.png)
 
-- This should start your signage server. You can verify this by opening your browser & entering a URL like `http://<ip-address>:8080`
+- If everything went well, then you should see **done** at the end & your signage server should be running. You can verify this by opening your browser & entering a URL like `http://<ip-address>:8080`
 
   ![Browser](images/browser.png)
